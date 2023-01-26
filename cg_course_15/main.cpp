@@ -12,9 +12,12 @@ int main()
 	Piramid* piramid = new Piramid;
 
 	// расположить в стартовой позиции
-	piramid->move(100, 200, 0);
-	lepiped->move(200, 200, 0);
-	
+	piramid->move(110, 180, 0);
+	piramid->rotByX(1);
+	lepiped->move(210, 170, 0);
+	lepiped->rotByX(1);
+	lepiped->rotByY(1);
+
 	int projectionMode = 1;
 
 	// размер рамки - перерисовываемого окна (только где есть плоскости)
