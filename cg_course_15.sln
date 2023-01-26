@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cg_course_15", "cg_course_15\cg_course_15.vcxproj", "{3FDD3298-20A2-49CA-B427-86F15F810801}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libwinbgi", "libwinbgi\libwinbgi.vcxproj", "{DAF4CC7E-F3CB-43AC-A07B-C5B6B9A4C32C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,12 @@ Global
 		{3FDD3298-20A2-49CA-B427-86F15F810801}.Release|x64.Build.0 = Release|x64
 		{3FDD3298-20A2-49CA-B427-86F15F810801}.Release|x86.ActiveCfg = Release|Win32
 		{3FDD3298-20A2-49CA-B427-86F15F810801}.Release|x86.Build.0 = Release|Win32
+		{DAF4CC7E-F3CB-43AC-A07B-C5B6B9A4C32C}.Debug|x64.ActiveCfg = Debug|Win32
+		{DAF4CC7E-F3CB-43AC-A07B-C5B6B9A4C32C}.Debug|x86.ActiveCfg = Debug|Win32
+		{DAF4CC7E-F3CB-43AC-A07B-C5B6B9A4C32C}.Debug|x86.Build.0 = Debug|Win32
+		{DAF4CC7E-F3CB-43AC-A07B-C5B6B9A4C32C}.Release|x64.ActiveCfg = Release|Win32
+		{DAF4CC7E-F3CB-43AC-A07B-C5B6B9A4C32C}.Release|x86.ActiveCfg = Release|Win32
+		{DAF4CC7E-F3CB-43AC-A07B-C5B6B9A4C32C}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
